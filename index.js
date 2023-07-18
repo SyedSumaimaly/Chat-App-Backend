@@ -8,7 +8,7 @@ const app = express();
 
 const port = 3001 || process.env.PORT;
 app.use(cors({
-    origin: "https://chatapp-sumaim.netlify.app/",
+    origin: "https://chatapp-sumaim.netlify.app",
     allowOrigin: true,
 }));
 const users = [{}];
